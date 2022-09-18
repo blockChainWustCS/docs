@@ -15,7 +15,7 @@ module.exports = {
       title: '区块链成绩系统',
       logo: {
         alt: 'polkadot{.js}',
-        src: 'img/logo.svg',
+        src: 'img/学校logo.png',
       },
       items: [
         {
