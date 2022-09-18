@@ -1,11 +1,10 @@
 module.exports = {
   reference: {
-    '介绍': ['intro',
-      ],
-    '链端': [
+    项目简介: ['intro', '介绍/本地测试'],
+    链端: [
       '链端/intro',
       {
-        '快速开始': [
+        快速开始: [
           '链端/start/intro',
           // 'api/start/install',
           // 'api/start/basics',
@@ -27,31 +26,31 @@ module.exports = {
           // 'api/start/typescript',
           // 'api/start/typescript.user'
         ],
-      //   Cookbook: [
-      //     'api/cookbook/intro',
-      //     'api/cookbook/blocks',
-      //     'api/cookbook/storage',
-      //     'api/cookbook/tx'
-      //   ],
-      //   Examples: [
-      //     'api/examples/promise/intro',
-      //     'api/examples/promise/simple-connect',
-      //     'api/examples/promise/listen-to-blocks',
-      //     'api/examples/promise/listen-to-balance-change',
-      //     'api/examples/promise/unsubscribe',
-      //     'api/examples/promise/read-storage',
-      //     'api/examples/promise/read-storage-at',
-      //     'api/examples/promise/make-transfer',
-      //     'api/examples/promise/system-events',
-      //     'api/examples/promise/transfer-events',
-      //     'api/examples/promise/upgrade-chain',
-      //     'api/examples/promise/typegen',
-      //     'api/examples/promise/chain-info',
-      //   ]
+        //   Cookbook: [
+        //     'api/cookbook/intro',
+        //     'api/cookbook/blocks',
+        //     'api/cookbook/storage',
+        //     'api/cookbook/tx'
+        //   ],
+        //   Examples: [
+        //     'api/examples/promise/intro',
+        //     'api/examples/promise/simple-connect',
+        //     'api/examples/promise/listen-to-blocks',
+        //     'api/examples/promise/listen-to-balance-change',
+        //     'api/examples/promise/unsubscribe',
+        //     'api/examples/promise/read-storage',
+        //     'api/examples/promise/read-storage-at',
+        //     'api/examples/promise/make-transfer',
+        //     'api/examples/promise/system-events',
+        //     'api/examples/promise/transfer-events',
+        //     'api/examples/promise/upgrade-chain',
+        //     'api/examples/promise/typegen',
+        //     'api/examples/promise/chain-info',
+        //   ]
       },
       // 'api/FAQ'
     ],
-    '前端': [
+    前端: [
       '前端/intro',
       // 'substrate/runtime',
       // 'substrate/rpc',
@@ -61,7 +60,7 @@ module.exports = {
       // 'substrate/events',
       // 'substrate/errors'
     ],
-    '后端': [
+    后端: [
       '后端/intro',
       // {
       //   'Getting started': [
@@ -81,7 +80,7 @@ module.exports = {
       // },
       // 'keyring/FAQ'
     ],
-    '事件': [
+    事件: [
       '事件/intro',
       // {
       //   Examples: [
@@ -141,4 +140,4 @@ module.exports = {
     //   'usage/FAQ'
     // ],
   },
-};
+}
