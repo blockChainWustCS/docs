@@ -1,7 +1,7 @@
 module.exports = {
   reference: {
-    Introduction: ['intro'],
-    API: [
+    '介绍': ['intro'],
+    '链端': [
       'api/intro',
       {
         'Getting started': [
@@ -50,7 +50,7 @@ module.exports = {
       },
       'api/FAQ'
     ],
-    'Substrate Metadata': [
+    '前端': [
       'substrate/intro',
       'substrate/runtime',
       'substrate/rpc',
@@ -60,7 +60,7 @@ module.exports = {
       'substrate/events',
       'substrate/errors'
     ],
-    Keyring: [
+    '后端': [
       'keyring/intro',
       {
         'Getting started': [
@@ -80,7 +80,7 @@ module.exports = {
       },
       'keyring/FAQ'
     ],
-    'Crypto Utilities': [
+    '事件': [
       'util-crypto/intro',
       {
         Examples: [
