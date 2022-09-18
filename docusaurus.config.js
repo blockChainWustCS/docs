@@ -1,7 +1,7 @@
 const BASE_URL = process.env.NODE_ENV === 'development' ? '/' : '/docs/';
 
 module.exports = {
-  title: 'polkadot{.js}',
+  title: '区块链成绩系统',
   tagline: 'Polkadot does JavaScript',
   url: 'https://polkadot.js.org',
   baseUrl: BASE_URL,
@@ -12,19 +12,14 @@ module.exports = {
   stylesheets: [],
   themeConfig: {
     navbar: {
-      title: 'polkadot{.js}',
+      title: '区块链成绩系统',
       logo: {
         alt: 'polkadot{.js}',
         src: 'img/logo.svg',
       },
       items: [
         {
-          href: 'https://polkadot.js.org/apps/',
-          label: 'Apps UI (Wallet)',
-          position: 'right',
-        },
-        {
-          href: 'https://github.com/polkadot-js/docs',
+          href: 'https://github.com/blockChainWustCS/docs',
           label: 'GitHub',
           position: 'right',
         },
@@ -36,12 +31,14 @@ module.exports = {
     ['@docusaurus/preset-classic', {
       docs: {
         sidebarPath: require.resolve('./sidebars.js'),
-        editUrl: 'https://github.com/polkadot-js/docs/edit/master/',
+        editUrl: 'https://github.com/blockChainWustCS/docs',
         routeBasePath: '/'
       },
       blog: {
         showReadingTime: true,
-        editUrl: 'https://github.com/polkadot-js/docs/edit/master/',
+        // editUrl: 'https://github.com/blockChainWustCS/docs/tree/master/docs',
+        editUrl: 'https://github.com/blockChainWustCS/docs/edit/master/',
+
       },
       theme: {
         customCss: require.resolve('./src/css/custom.css'),
